@@ -2,6 +2,7 @@ import "./styles/App.css";
 import ImageManipulator from "./components/image-manipulator";
 import image from "./image1.jpg";
 
+// App
 function App() {
   const handleOnCrop = (img) => {
     const link = document.createElement("a");
